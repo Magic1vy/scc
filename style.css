@@ -240,7 +240,7 @@ h3{
   text-align: left;
   padding-left: 10px;
 }
-.atomy{
+.atomy, .footer-rigths{
   display: flex;
 }
 .atomy-img{
@@ -548,7 +548,7 @@ width: 50%;
     width: 100%;
     margin: 10px;
   }
-.container-review{
+  .container-review{
     padding-bottom: 50px;
   }
   .slide {
@@ -575,7 +575,7 @@ width: 50%;
     padding: 3px;
     font-size: 0.8em;
   }
-  #about, #about-founder, #members, #events, #sponsors, .sponsor-windown, #privacy-page,  #testimonials, #contact, #review, .image-scroll-container{
+  #about, #about-founder, #members, #events, #sponsors, .sponsor-windown, #privacy-page,  #testimonials, #contact, #review{
     padding:  10px;
   }
   .prev-slideshow, .next-slideshow {
@@ -588,5 +588,14 @@ width: 50%;
   }
   .container-review{
     padding-bottom: 50px;
+  }
+  .image-scroll-container{
+    padding: 0;
+  }
+  .container-sponsor{
+    justify-content: center;
+  }
+  .social-media{
+    flex-direction: column;
   }
 }
