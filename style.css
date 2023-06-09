@@ -462,7 +462,7 @@ width: 50%;
   }
   .slideshow  {
   max-width: 500px;
-}
+  }
   #main-page, .container{
       flex-wrap: wrap;
   }
@@ -491,11 +491,17 @@ width: 50%;
   }
   .myText{
     font-size: 35px;
-}
-  .container-review{
-    padding-bottom: 20px;
-}
-
+  }
+    .container-review{
+      padding-bottom: 20px;
+  }
+  .founder-img{
+    display: flex;
+    justify-content: center;
+  }
+  .container-sponsor{
+    justify-content: center;
+  }
 }
 @media all and (max-width: 800px) {
   .nav-bar {
@@ -563,7 +569,7 @@ width: 50%;
     margin-top: 30px;
   }
   #top{
-    bottom: 0px;
+    bottom: 15px;
   }
   .testimonial {
     width: 90%;
@@ -593,15 +599,26 @@ width: 50%;
   .image-scroll-container{
     padding: 0;
   }
-  .container-sponsor{
-    justify-content: center;
-  }
   .social-media{
     flex-direction: column;
   }
+
 }
-@media screen and (orientation: landscape) {
+@media all and (max-width: 900px) and (orientation: landscape) {
   #main-page{
     height: 100%;
   }
+  #about, #about-founder, #members, #events, #sponsors, .sponsor-windown, #privacy-page,  #testimonials, #contact, #review{
+    padding:  10px;
+  }
+  .events{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+  }
+  .atomy{
+    flex-wrap: wrap;
+  }
+  
 }
