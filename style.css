@@ -600,3 +600,8 @@ width: 50%;
     flex-direction: column;
   }
 }
+@media screen and (orientation: landscape) {
+  #main-page{
+    height: 100%;
+  }
+}
