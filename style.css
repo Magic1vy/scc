@@ -570,6 +570,7 @@ width: 50%;
   } 
   .prev, .next {
     font-size: 1.2em;
+    color: black;
   }
   .testimonial a {  
     padding: 3px;
