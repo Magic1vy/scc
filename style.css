@@ -577,6 +577,7 @@ width: 50%;
   .prev, .next {
     font-size: 1.2em;
     color: black;
+    padding: 0;
   }
   .testimonial a {  
     padding: 3px;
